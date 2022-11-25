@@ -72,3 +72,23 @@ footer{
     }
 }
 
+nav a{
+    font-weight: bold;
+}
+
+nav a:link, nav a:visited{
+    text-decoration: none;
+    padding: 10px;
+    color: #14213D;
+    background-color: #fca311;
+    border: 1.5px solid #14213D;
+    transition: 0.5s all;
+    border-radius: 5px;
+}
+
+nav a:hover, nav a:active {
+    color: black;
+    color: #fca311;
+    background-color: #14213D;
+    border: 1.5px solid #fca311;
+}
